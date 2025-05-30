@@ -4,7 +4,7 @@ This is a simple and responsive web interface for a call center, built using **H
 
 ## 🖼️ Project Preview
 
-![Call Center Screenshot](img/screenshot.png)
+![Call Center Screenshot](D:\wwwtest\callCenter\img\Screenshot.png)
 
 ## 📁 Project Structure
 
@@ -31,7 +31,9 @@ callCenter/<br>
 2. ***Navigate to the project directory:***
 
    ```bash
-   cd callCenter```<br>
+   cd callCenter
+
+
 Open the ```index.html``` file in your browser to view the site.
 
 🛠️  ***Technologies Used***
