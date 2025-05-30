@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="png" href="./img/icon.png">
+    <title>Call Center</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/commen.js"></script> 
+    <script src="./js/screenChange.js"></script>
+   <script>window.onscroll = function() {changeNav()};</script>
+</head>
+<body>
+    <div id="cover" class="cover_off" onclick="closeSubpage()"></div>
+    <div id="content" class="content_off">
+    <iframe id="content_page" class="content_iframe_off" src="/"></iframe></div>
+    <div id="close" class="close_off" onclick="closeSubpage()"></div>
+    <div id="header" class="header_off">
+        <div id="nav" class="nav">
+            <nav class="nav_link">
+                <img src="./img/logo.jpg" height="100px" alt="logo picture"; onclick="goHome()">  
+                <a href="javascript:void(0);" onclick="openSubpage('about.html')">About</a>
+                <a href="javascript:void(0);" onclick="openSubpage('choose.html')">Choose</a>
+                <a href="javascript:void(0);" onclick="openSubpage('contact.html')">Contact</a>
+                <a href="javascript:void(0);" onclick="openSubpage('FAQ.html')">FAQ</a>
+                <a href="javascript:void(0);" onclick="openSubpage('services.html')">Services</a>
+                <a href="javascript:void(0);" onclick="openSubpage('works.html')">Works</a>
+            </nav>
+        </div>
+    </div>
+
+    <div id="banner"></div>
+    <div id="main_block">
+        <div id="main_menu">
+            <div class="main_title" style="background-image: url('./img/whoweare.PNG');">Who we are</div>
+            <div class="main_content">CC is your call center managed by people who have over 30 years of combined experience.
+                <span style="float: right;"><a style="cursor: pointer;" onclick="openSubpage('about.html')">...more</a></span>
+            </div>
+        </div>
+        <div id="main_menu">
+            <div class="main_title" style="background-image: url('./img/whatwedo.PNG');">What we do</div>
+            <div class="main_content">We bring to you your very own contact center providing core support to your business.
+                <span style="float: right;"><a style="cursor: pointer;" onclick="openSubpage('works.html')">...more</a></span>
+            </div>
+        </div>
+        <div id="main_menu">
+            <div class="main_title" style="background-image: url('./img/howwework.PNG');">How we work</div>
+            <div class="main_content">We make it really simple for you. Just follow the process
+                <span style="float: right;"><a style="cursor: pointer;" onclick="openSubpage('services.html')">...more</a></span>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div id="footer">
+        <p>Copyright©2025. Powered by CallCentre Limited</p>
+    </div>
+</body>
+</html>
