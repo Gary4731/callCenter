@@ -4,7 +4,7 @@ This is a simple and responsive web interface for a call center, built using **H
 
 ## 🖼️ Project Preview
 
-![Call Center Screenshot](img\Screenshot.png)
+![Call Center Screenshot](img/Screenshot.png)
 
 ## 📁 Project Structure
 
@@ -34,7 +34,7 @@ callCenter/<br>
    cd callCenter
 
 
-Open the ```index.html``` file in your browser to view the site.
+<br><br><br>Open the ```index.html``` file in your browser to view the site.<br><br><br>
 
 
 
@@ -45,7 +45,7 @@ Open the ```index.html``` file in your browser to view the site.
 **CSS3** – for styling and layout
 
 **JavaScript** – for interactivity
-
+<br><br><br><br>
 
 
 
@@ -57,7 +57,7 @@ Hover effects for improved UX
 
 Modular structure for easy maintenance
 
-
+<br><br><br><br>
 
 
 
@@ -73,14 +73,14 @@ Commit your changes: git commit -m 'Add some AmazingFeature'
 Push to the branch: git push origin feature/AmazingFeature
 
 Open a Pull Request
-
+<br><br><br><br>
 
 
 
 📄 ***License***
 This project is licensed under the MIT License.
 
-
+<br><br><br><br>
 
 
 📬 ***Contact***
